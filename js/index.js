@@ -4,6 +4,12 @@
         event.preventDefault(); // Prevent form submission
 
         var name = $('#nameInput').val(); // Get the entered name
+              var name = $('#nameInput').val(); // Get the entered name
+      
+        if (name === '') {
+          alert('Please enter your name');
+          return;
+        }
 
         // Make an AJAX request to the Genderize API
         $.ajax({
