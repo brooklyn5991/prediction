@@ -1,4 +1,3 @@
-const buttonEl = document.querySelector('#button')
 
     $(document).ready(function() {
       $('form').submit(function(event) {
@@ -12,7 +11,8 @@ const buttonEl = document.querySelector('#button')
           data: { name: name },
           success: function(response) {
             var gender = response.gender; // Extract the gender from the API response
-            $('#result').text('Your gender: ' + gender);
+             
+            $('#result').text(`Your gender:  ${gender} `);
           }, 
           error: function() {
             $('#result').text('Error occurred while fetching the gender.');
