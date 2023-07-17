@@ -26,9 +26,9 @@ const buttonEl = document.querySelector('#button')
           const countryEl = document.querySelector('#country');
 
           if (data.country === 'NG') {
-            countryEl.textContent = `Country : Nigeria`
+            countryEl.textContent = `Location : Nigeria`
           } else {
-            countryEl.textContent = `Country : ${data.country}`
+            countryEl.textContent = `Location : ${data.country}`
           }
           
           
