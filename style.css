@@ -11,7 +11,7 @@ h5 {
   }
 
   #enterName {
-    font-size: 16px;
+    font-size: 25px;
     padding-left: 40px;
     padding-right: 40px;
 
@@ -23,20 +23,20 @@ h5 {
   /* For medium-sized screens */
   @media screen and (max-width: 768px) {
     h5 {
-      font-size: 14px;
+      font-size: 25px;
     }
     #enterName {
-        font-size: 14px;
+        font-size: 25px;
         }
   }
   
   /* For small screens */
   @media screen and (max-width: 480px) {
     h5 {
-      font-size: 12px;
+      font-size: 25px;
     }
     #enterName {
-        font-size: 14px;
+        font-size: 25px;
         }
   }
   
