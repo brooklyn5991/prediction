@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gender Finder</title>
+  <link rel="stylesheet" href="./style.css">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+</head>
+<body>
+  <div>
+  <h1>Gender and country prediction</h1>
+  <h5>"Unlock the power of intuition with Oke's captivating gender and country guessing app.
+     Experience the joy of guessing right as you explore the exciting world of gender and country prediction."</h5>
+  <form>
+    <label for="nameInput">Please enter your name:</label>
+    <br>
+    <input type="text" id="nameInput" name="name">
+    <input type="submit" value="Predict" id="button">
+  </form>
+  <div id="result"></div>
+  <h3 id="country">Country loading.... <span><i class="fas fa-spinner fa-pulse"></i></span></h3>
+
+</div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
